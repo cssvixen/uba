@@ -1,0 +1,585 @@
+
+
+#header
+{
+    background-color:darkgray;
+    height: 40px;
+    width: fixed;
+    margin:0;
+    padding: 0;
+    overflow: hidden;  
+}
+
+#mainbox
+{
+    margin-left: 130px;
+    height: 50px;
+    width: 320px;
+
+}
+
+#search
+{
+    display: inline-block;
+    vertical-align:top;
+    margin-left:0px;
+    height: 40px;
+    width: 40px;
+    background-color: #bfbfbf;
+    line-height: 0px;
+    margin-bottom: 0em;
+    box-sizing: border-box;
+}
+
+.material-icons
+{
+    padding-left: 5px;
+    font-size: 30px !important;
+    padding-top: 5px;
+    padding-right: 5px;
+    font-weight: lighter !important;
+
+}
+#login 
+{
+  color: red;
+  padding: 0em;
+  display: inline-block;
+ 
+  height: 40px;
+  width: 170px;
+  background-color: #cccccc;
+  margin-left: 0px;
+  margin-top: 0px;
+  vertical-align: top;
+  line-height: 0px;
+  margin-bottom: 0em;
+  box-sizing: border-box;
+  font-size: 5px;
+  
+}
+
+#login h6
+{
+    text-align: center;
+    padding-top: 7px;
+}
+
+
+#flag
+{
+  padding: 1em;
+  display: inline-block;
+  font-size: 12px;
+  height: 40px;
+  width: 100px;
+  background-color: #bfbfbf;
+  margin-left: 0px;
+  margin-top: 0px;
+  vertical-align: top;
+  line-height: 1.3em;
+  margin-bottom: 1em;
+  box-sizing: border-box;
+}
+
+#myCarousel
+{
+    width: fixed;
+    height: 430px;
+    background-size: cover;
+}
+
+.carousel-inner > .item > img
+{
+    width: fixed;
+    height: 400px;
+}
+
+#fawesome
+{
+    width: fixed;
+    height: 200px;
+    background-color: #cccccc;
+}
+
+#internalfawe
+{
+    padding-top:50px;
+    padding-bottom: 10px;
+    margin-left: 90px;
+    margin-right: 90px;
+}
+
+.file
+{
+    box-sizing: border-box;
+    background-color: #cccccc;
+    display: inline-block;
+    height: 100px;
+    width: 160px;
+    line-height: 1.3em;
+    margin-right: 0px;
+    text-align: center;
+    border-collapse: separate;
+    border-spacing: 25px;
+}
+
+
+.file h4
+{
+    text-align: center;
+    color: red;
+}
+
+.cards
+{
+    box-sizing: border-box;
+    background-color: #cccccc;
+    display: inline-block;
+    height: 100px;
+    width: 160px;
+    line-height: 1.3em;
+    margin-right: 0px;
+    text-align: center;
+    margin-left: 30px;
+}
+
+.cards h4
+{
+    text-align: center;
+    color: red;
+}
+
+.phone
+{
+    box-sizing: border-box;
+    background-color: #cccccc;
+    display:inline-block;
+    height: 100px;
+    width: 160px;
+    line-height: 1.3em;
+    margin-right: 0px;
+    text-align: center;
+    margin-left: 30px;
+}
+.phone h4
+{
+    text-align: center;
+    color: red;
+}
+
+.university
+{
+box-sizing: border-box;
+background-color: #cccccc;
+display:inline-block;
+height: 100px;
+width : 160px;
+line-height: 1.3em;
+margin-right: 0px;
+text-align: center;
+margin-left: 30px;
+}
+.university h4
+{
+    text-align: center;
+    color: red;
+}
+
+.tools
+{
+  box-sizing: border-box;
+  background-color: #cccccc;
+  display: inline-block;
+  height: 100px;
+  width: 160px;
+  line-height : 1.3em;
+  margin-right: 0px;
+  text-align: center;
+  margin-left: 30px;
+}
+.tools h4
+{
+    text-align: center;
+    color: red;
+}
+
+.laptop
+{
+   box-sizing: border-box;
+   background-color: #cccccc;
+   display: inline-block;
+   height: 100px;
+   width : 160px;
+   line-height : 1.3em;
+   text-align: center;
+   margin-left: 30px;
+}
+.laptop h4
+{
+    text-align: center;
+    color: red;
+}
+#menu
+{
+ background-color: #4d4d4d;
+ height: 60px;
+ width: fixed;
+ font-family: Arial, Helvetica, sans-serif;
+ overflow: hidden;   
+}
+
+#innermenu
+{
+    background-color: #4d4d4d;
+    padding-top: 10px;
+    height: 55px;
+    margin-left: 90px;
+    margin-right: 90px;
+}
+
+#menu a 
+{
+    float:left;
+    overflow:hidden;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 11.5px;
+}
+
+.personalbanking
+{
+    float: left;
+    overflow: hidden;
+}
+.personalbanking  .personalbankingbtn
+{
+font-size: 11.5px;
+border: none;
+outline: none;
+color: white;
+padding: 14px 16px;
+background-color: inherit;
+font-family: inherit;
+margin:0;
+
+}
+
+#menu a:hover, .personalbanking:hover  .personalbankingbtn
+{
+color: red;
+background-color: #333333;
+}
+
+.personalbanking-content
+{
+    display: none;
+    position: absolute;
+    background-color: darkgray;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.personalbanking-content a
+{
+float: none;
+color: black;
+padding: 12px 16px;
+text-decoration: none;
+display: block;
+text-align: center;
+background-color: darkgray;
+
+}
+
+.personalbanking-content a:hover
+{
+background-color: #ddd;
+}
+
+.personalbanking:hover .personalbanking-content
+{
+    display: block;
+}
+
+
+.corporatebanking
+{
+float: left;
+overflow: hidden;
+}
+
+.corporatebanking .corporatebankingbtn
+{
+font-size: 11.5px;
+border:none;
+outline: none;
+color: white;
+padding: 14px 16px;
+background-color: inherit;
+font-family: inherit;
+margin: 0;
+}
+
+#menu a:hover, .corporatebanking:hover  .corporatebankingbtn
+{
+color: red;
+background-color: #333333;
+}
+
+.corporatebanking-content
+{
+display:none;
+position: absolute;
+background-color: darkgray;
+min-width: 160px;
+box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+z-index: 1;
+}
+
+.corporatebanking-content a
+{
+float: none;
+color: black;
+padding: 12px 16px;
+text-decoration: none;
+display: block;
+text-align: center;
+background-color: darkgray;
+}
+
+.corporatebanking-content a:hover
+{background-color: #ddd;}
+
+.corporatebanking:hover  .corporatebanking-content
+{display:block;}
+
+
+.eproducts
+{
+float: left;
+overflow: hidden;
+}
+
+.eproducts .eproductsbtn
+{
+font-size: 11.5px;
+border:none;
+outline: none;
+color: white;
+padding: 14px 16px;
+background-color: inherit;
+font-family: inherit;
+margin: 0;
+}
+
+#menu a:hover, .eproducts:hover  .eproductsbtn
+{
+color: red;
+background-color: #333333;
+}
+
+.eproducts-content
+{
+display:none;
+position: absolute;
+background-color: darkgray;
+min-width: 160px;
+box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+z-index: 1;
+}
+
+.eproducts-content a
+{
+float: none;
+color: black;
+padding: 12px 16px;
+text-decoration: none;
+display: block;
+text-align: center;
+background-color: darkgray;
+}
+
+.eproducts-content a:hover
+{background-color: #ddd;}
+
+.eproducts:hover  .eproducts-content
+{display:block;}
+
+
+.moneytransfers
+{
+float: left;
+overflow: hidden;
+}
+
+.moneytransfers .moneytransfersbtn
+{
+font-size: 11.5px;
+border:none;
+outline: none;
+color: white;
+padding: 14px 16px;
+background-color: inherit;
+font-family: inherit;
+margin: 0;
+}
+
+#menu a:hover, .moneytransfers:hover  .moneytransfersbtn
+{
+color: red;
+background-color: #333333;
+}
+
+.moneytransfers-content
+{
+display:none;
+position: absolute;
+background-color: darkgray;
+min-width: 160px;
+box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+z-index: 1;
+}
+
+.moneytransfers-content a
+{
+float: none;
+color: black;
+padding: 12px 16px;
+text-decoration: none;
+display: block;
+text-align: center;
+background-color: darkgray;
+}
+
+.moneytransfers-content a:hover
+{background-color: #ddd;}
+
+.moneytransfers:hover  .moneytransfers-content
+{display:block;}
+
+
+.customerservice
+{
+float: left;
+overflow: hidden;
+}
+
+.customerservice .customerservicebtn
+{
+font-size: 11.5px;
+border:none;
+outline: none;
+color: white;
+padding: 14px 16px;
+background-color: inherit;
+font-family: inherit;
+margin: 0;
+}
+
+#menu a:hover, .customerservice:hover  .customerservicebtn
+{
+color: red;
+background-color: #333333;
+}
+
+.customerservice-content
+{
+display:none;
+position: absolute;
+background-color: darkgray;
+min-width: 160px;
+box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+z-index: 1;
+}
+
+.customerservice-content a
+{
+float: none;
+color: black;
+padding: 12px 16px;
+text-decoration: none;
+display: block;
+text-align: center;
+background-color: darkgray;
+}
+
+.customerservice-content a:hover
+{background-color: #ddd;}
+
+.customerservice:hover  .customerservice-content
+{display:block;}
+
+
+.ubagroup
+{
+float: left;
+overflow: hidden;
+}
+
+.ubagroup .ubagroupbtn
+{
+font-size: 16px;
+border:none;
+outline: none;
+color: white;
+padding: 14px 16px;
+background-color: inherit;
+font-family: inherit;
+margin: 0;
+}
+
+#menu a:hover, .ubagroup:hover  .ubagroupbtn
+{
+color: red;
+background-color: #333333;
+}
+
+.ubagroup-content
+{
+display:none;
+position: absolute;
+background-color: darkgray;
+min-width: 160px;
+box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+z-index: 1;
+}
+
+.ubagroup-content a
+{
+float: none;
+color: black;
+padding: 12px 16px;
+text-decoration: none;
+display: block;
+text-align: center;
+background-color: darkgray;
+}
+
+.ubagroup-content a:hover
+{background-color: #ddd;}
+
+.ubagroup:hover  .ubagroup-content
+{display:block;}
+
+#start
+{
+    height: 342px;
+}
+#startbtnn
+{
+    height: 70px;
+    width: 100px;
+    margin-bottom: 30px;
+
+
+    
+}
+.startbtn
+{
+    height: 40px;
+    width: 70px;
+}
